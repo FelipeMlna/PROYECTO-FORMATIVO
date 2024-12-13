@@ -1,0 +1,215 @@
+/* Estilos generales */
+body {
+  background-image: url('./Imagenes/fondo_park.jpg');
+  margin: 0px;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-position: center; 
+}
+
+.container {
+  max-width: 800px;
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #f8f9fa;
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Estilos de los formularios */
+.form-label {
+  font-size: 1.1rem;
+  color: #f8f9fa;
+  text-align: left;
+}
+
+.form-control {
+  border-radius: 0.5rem;
+  border: 1px solid #495057;
+  padding: 12px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  background-color: rgba(73, 80, 87, 0.7); /* Fondo oscuro con opacidad */
+  color: #f8f9fa;
+}
+
+
+/* Estilos para los botones */
+.btn {
+  font-size: 1.1rem;
+  padding: 12px;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+
+
+
+/* Ajuste en los campos del formulario */
+.form-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  min-height: 100vh;
+  background-color: #282c34; 
+}
+
+/* Estilos para el formulario */
+#edit-profile-form {
+  background-color: rgba(0, 0, 0, 0.3); 
+  color: white; 
+  box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+  border-radius: 10px; 
+  padding: 40px 20px;
+  max-width: 600px; 
+  width: 100%; 
+  margin-top: 100px; 
+  margin-bottom: 50px;
+}
+
+#edit-profile-form .form-label {
+  font-size: 1.1rem;
+  color: #f8f9fa;
+}
+
+#edit-profile-form .form-control {
+  background-color: rgba(73, 80, 87, 0.7);
+  color: #f8f9fa;
+}
+
+
+/* Para los mensajes de alerta */
+#response-message {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #f8f9fa;
+  text-align: center;
+}
+
+/* Ajuste en los campos del formulario */
+.form-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  min-height: 100vh; 
+  background-color: #282c34; 
+  padding: 0 15px; /* Anadir algo de padding para evitar que el formulario toque los bordes en pantallas pequenas */
+}
+
+/* Estilos para el formulario */
+#edit-profile-form {
+  background-color: rgba(0, 0, 0, 0.3); 
+  color: white; 
+  box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+  border-radius: 10px; 
+  padding: 40px 20px;
+  max-width: 600px; 
+  width: 100%; 
+  margin-top: 0; /* Eliminar margin-top para centrarlo mejor */
+  margin-bottom: 50px;
+}
+
+/* Estilo para el boton btn7 */
+.btn7 {
+  padding: 40px 60px; /* Espaciado interno (alto y ancho) */
+  text-decoration: none; /* Eliminar subrayado */
+  color: rgb(255, 255, 255); /* Texto en color blanco */
+  letter-spacing: 10px; /* Espaciado entre letras */
+  transition: all 0.6s ease; /* Transicion suave en todos los cambios */
+
+  font-weight: bold; /* Texto en negrita */
+  margin: 10px; /* Margen alrededor del boton */
+  border: none; /* Sin borde */
+  font-size: x-large; /* Tamano de fuente grande */
+}
+
+/* Estilo para la barra de navegacion */
+nav {
+  font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilo para los elementos de lista dentro de la barra de navegacion */
+ul li {
+  display: inline-block; /* Elementos en linea */
+  padding: 0px 20px; /* Espaciado horizontal */
+}
+
+/* Estilo para los enlaces dentro de la barra de navegacion */
+a {
+  color: white; /* Texto blanco */
+  text-decoration: none; /* Sin subrayado */
+  font-family: 'Times New Roman', Times, serif; /* Fuente clasica */
+}
+
+
+/* Estilo para las horas de apertura */
+.horas {
+  text-decoration: none; /* Sin subrayado */
+  text-align: right; /* Alineacion a la derecha */
+  font-weight: bold; /* Texto en negrita */
+}
+
+
+/* Estilo para el titulo h1 */
+h1 {
+  color: rgb(255, 255, 255); /* Texto negro */
+  text-align: center; /* Texto centrado */
+  text-transform: uppercase; /* Texto en mayusculas */
+  font-family: 'Times New Roman', Times, serif; /* Fuente clasica */
+}
+
+
+/* Estilo para el contenedor de tarifas */
+.tarifas-contenedor {
+  padding: 20px; /* Espaciado interno */
+}
+
+/* Estilo responsivo para pantallas mas pequenas */
+@media (max-width: 768px) {
+  .caja h1, .tarifa {
+      font-size: 1.5rem; /* Reducir tamano de fuente */
+  }
+  .contenedor {
+      padding: 10px; /* Reducir espaciado interno */
+  }
+  .tarifas-contenedor .card {
+      margin-bottom: 20px; /* Espaciado entre tarjetas */
+  }
+  .navbar-brand img {
+      width: 50px; /* Reducir tamano de imagen en la barra de navegacion */
+  }
+}
+
+/* Estilo para la informacion del usuario */
+.info {
+  color: white; /* Texto blanco */
+  font-family: 'Times New Roman', Times, serif; /* Fuente clasica */
+  font-weight: bold; /* Texto en negrita */
+  font-size: large; /* Tamano de fuente grande */
+  justify-content: space-between; /* Espaciado uniforme */
+  margin-left: 100px; /* Margen izquierdo */
+}
+
+/* Barra de datos (flexbox) */
+.barradatps {
+  display: flex; /* Elementos en fila */
+  justify-content: space-between; /* Espaciado uniforme */
+}
+
+
+/* Estilo para la fecha */
+.fecha {
+  color: black; /* Texto negro */
+  font-weight: bold; /* Texto en negrita */
+  font-size: x-large; /* Tamano de fuente grande */
+  margin-left: 550px; 
+}
+
+.cerrar-sesion{
+  color: red;
+}

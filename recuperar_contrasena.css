@@ -1,0 +1,164 @@
+/* Estilo del fondo de la pagina */
+body {
+    background-image: url(Imagenes/FONDO\ PARk.jpg); /* Fondo de la pagina */
+    margin: 0; /* Elimina los margenes predeterminados */
+    background-size: cover; /* Hace que el fondo cubra toda la pantalla */
+    background-repeat: no-repeat; /* Evita que el fondo se repita */
+    background-attachment: fixed; /* Fija el fondo al desplazarse */
+    background-position: center; /* Centra el fondo */
+    min-height: 100vh; /* Asegura que la altura minima sea de 100% del viewport */
+}
+
+/* Estilo para el menu de navegacion */
+nav {
+    margin: 0px; /* Elimina el margen predeterminado */
+    display: flex; /* Utiliza Flexbox para el diseno */
+    align-items: center; /* Alinea los elementos verticalmente */
+    padding-top: 0px; /* Sin espaciado en la parte superior */
+    padding-left: 2%; /* Espaciado a la izquierda */
+    padding-right: 5%; /* Espaciado a la derecha */
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilo para los elementos de la lista en el menu */
+ul li {
+    display: inline-block; /* Muestra los elementos de la lista en linea */
+    padding: 0px 20px; /* Espaciado entre los elementos */
+}
+
+/* Estilo para los enlaces del menu */
+a {
+    color: white; /* Color de los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    font-family: 'Times New Roman', Times, serif; /* Fuente de los enlaces */
+}
+
+/* Estilo para la imagen del logo en la barra de navegacion */
+nav img {
+    display: flex; /* Flexbox para alinear la imagen */
+    align-items: left; /* Alineacion a la izquierda */
+    width: 300px; /* Ancho de la imagen */
+    height: 300px; /* Alto de la imagen */
+}
+
+/* Estilo para el texto de la clase .letra */
+.letra {
+    color: white; /* Color del texto */
+    font-family: 'Times New Roman', Times, serif; /* Fuente del texto */
+    text-align: center; /* Alineacion del texto a la izquierda */
+    font-size: 46px; /* Tamano de la fuente */
+}
+
+/* Estilo para la clase .col (probablemente columnas) */
+.col {
+    color: black; /* Color del texto */
+    background-color: white; /* Fondo blanco */
+    text-align: center; /* Centrado del texto */
+    font-family: Arial, Helvetica, sans-serif; /* Fuente de los textos */
+    font-size: large; /* Tamano de la fuente */
+}
+
+/* Estilo para los enlaces dentro de .item-list */
+.item-list a {
+    color: rgb(255, 255, 255); /* Color de los enlaces */
+    font-size: 21px; /* Tamano de la fuente */
+}
+
+/* Efecto al pasar el raton por encima de los enlaces */
+.item-list a:hover {
+    color: #00bfff; /* Cambia el color cuando se pasa el raton por encima */
+}
+
+/* Estilos para el formulario */
+.form {
+    margin: 0 auto; /* Centra el formulario */
+    justify-content: center; /* Centra los elementos dentro del formulario */
+    text-align: center; /* Alineacion centrada */
+    background-color: rgba(0, 0, 0, 0.3); /* Fondo negro translúcido */
+    color: white; /* Color del texto blanco */
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8); /* Sombra blanca sutil */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 40px 20px; /* Espaciado interno */
+    max-width: 600px; /* Ancho maximo del formulario */
+    margin-top: 100px; /* Espaciado superior */
+    margin-bottom: 50px; /* Espaciado inferior */
+}
+
+/* Estilo para el titulo de sesion */
+.sesion {
+    font-family: 'Times New Roman', Times, serif; /* Fuente del titulo */
+    font-size: 50px; /* Tamano de la fuente */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+/* Estilos para los grupos dentro del formulario (inputs, labels, etc.) */
+form .grupo {
+    position: relative; /* Posicion relativa para los elementos dentro del grupo */
+    margin: 30px 0; /* Espaciado superior e inferior */
+}
+
+/* Estilo para los campos de entrada (inputs) */
+input {
+    background: none; /* Sin fondo */
+    color: #ffffff; /* Color del texto blanco */
+    font-size: 18px; /* Tamano de la fuente */
+    padding: 10px 10px 10px 5px; /* Espaciado interno */
+    display: block; /* Muestra los inputs como bloques */
+    width: 100%; /* Ancho completo */
+    border: none; /* Elimina el borde por defecto */
+    border-bottom: 1px solid #ffffff; /* Borde inferior blanco */
+}
+
+/* Estilo cuando el input esta en foco */
+input:focus {
+    outline: none; /* Elimina el contorno por defecto */
+    color: white; /* Texto blanco */
+}
+
+/* Estilo para las etiquetas dentro del formulario */
+label {
+    color: #ffffff; /* Color del texto blanco */
+    font-size: 16px; /* Tamano de la fuente */
+    position: absolute; /* Posicion absoluta para desplazarla dentro del input */
+    left: 5px; /* Alineacion a la izquierda */
+    top: 10px; /* Alineacion arriba */
+    transition: 0.5s ease-in-out all; /* Transicion suave */
+    pointer-events: none; /* Evita que la etiqueta interfiera con la interaccion del usuario */
+}
+
+/* Estilo para las etiquetas cuando el input esta en foco o es valido */
+input:focus ~ label,
+input:valid ~ label {
+    transform: translateY(-10px); /* Desplazamiento hacia arriba */
+    font-size: 12px; /* Tamano de fuente mas pequeno */
+    color: white; /* Color blanco */
+    transition: transform 0.3s ease, font-size 0.3s ease, color 0.3s ease; /* Transicion suave */
+}
+
+/* Estilo para el boton de envio */
+button {
+    background-color: #00bfff; /* Fondo azul claro */
+    color: white; /* Texto blanco */
+    border: none; /* Elimina el borde por defecto */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    font-size: 18px; /* Tamano de la fuente */
+    margin-top: 20px; /* Espaciado superior */
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilo para el boton en pantallas pequenas (mediante media query) */
+@media (max-width: 768px) {
+    .sesion {
+        font-size: 30px; /* Tamano de fuente reducido en pantallas pequenas */
+    }
+    button {
+        font-size: 16px; /* Tamano de fuente reducido para el boton */
+        padding: 8px 16px; /* Ajusta el espaciado interno del boton */
+    }
+    .form {
+        padding: 20px 10px; /* Ajusta el espaciado interno del formulario */
+        max-width: 90%; /* Reduce el ancho maximo del formulario */
+    }
+}

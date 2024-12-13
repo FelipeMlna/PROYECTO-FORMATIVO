@@ -1,0 +1,247 @@
+/* Estilo para el boton btn7 */
+.btn7 {
+  padding: 40px 60px; /* Espaciado interno (alto y ancho) */
+  text-decoration: none; /* Eliminar subrayado */
+  color: rgb(255, 255, 255); /* Texto en color blanco */
+  letter-spacing: 10px; /* Espaciado entre letras */
+  transition: all 0.6s ease; /* Transición suave en todos los cambios */
+  background-color: rgb(114, 161, 206); /* Fondo azul claro */
+  font-weight: bold; /* Texto en negrita */
+  margin: 10px; /* Margen alrededor del boton */
+  border: none; /* Sin borde */
+  font-size: x-large; /* Tamano de fuente grande */
+}
+
+/* Estilo para la barra de navegacion */
+nav {
+  font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilo para los elementos de lista dentro de la barra de navegacion */
+ul li {
+  display: inline-block; /* Elementos en linea */
+  padding: 0px 20px; /* Espaciado horizontal */
+}
+
+/* Estilo para los enlaces dentro de la barra de navegacion */
+a {
+  color: white; /* Texto blanco */
+  text-decoration: none; /* Sin subrayado */
+  font-family: 'Times New Roman', Times, serif; /* Fuente clasica */
+}
+
+/* Estilo para los elementos con la clase 'letra' */
+.letra {
+  color: white; /* Texto blanco */
+  text-transform: uppercase; /* Convertir el texto a mayusculas */
+  font-family: 'Times New Roman', Times, serif; /* Fuente clasica */
+  text-align: left; /* Alineacion a la izquierda */
+  font-size: 46px; /* Tamano de fuente grande */
+}
+
+/* Estilo para los elementos con la clase 'oferta' */
+.oferta {
+  background-color: rgb(255, 110, 14); /* Fondo naranja */
+  color: black; /* Texto negro */
+}
+
+/* Estilo para el boton con la clase 'btn1' */
+.btn1 {
+  position: relative; /* Posicion relativa */
+  padding: 20px 40px; /* Espaciado interno */
+  text-decoration: none; /* Eliminar subrayado */
+  color: rgb(255, 255, 255); /* Texto blanco */
+  letter-spacing: 10px; /* Espaciado entre letras */
+  transition: all 0.6s ease; /* Transición suave */
+  background-color:  rgb(206, 170, 137); /* Fondo rojo oscuro */
+  font-weight: bold; /* Texto en negrita */
+  border: none; /* Sin borde */
+  margin-top: 10px; /* Margen superior */
+}
+
+/* Estilo para el carrusel */
+.carousel-slide {
+  display: flex; /* Utiliza flexbox para centrar los elementos */
+  justify-content: center; /* Centrado horizontal */
+  align-items: center; /* Centrado vertical */
+  min-height: 90vh; /* La altura minima del contenedor es 90% de la altura de la pantalla */
+  padding-top: 90px; /* Espaciado superior para ajustar con la barra de navegacion */
+  transition: transform 1s ease; /* Transición suave al mover el carrusel */
+}
+
+/* Estilo para la seccion 'nosotros' */
+.nosotros {
+  color: white; /* Texto blanco */
+  padding: 2%; /* Espaciado interno */
+  background-color: rgb(127, 177, 235); /* Fondo azul claro */
+  text-align: center; /* Texto centrado */
+  font-family: 'Times New Roman', Times, serif; /* Fuente clasica */
+  margin-left: 30%; /* Margen izquierdo */
+  margin-right: 30%; /* Margen derecho */
+}
+
+/* Estilo para la columna de informacion */
+.col {
+  color: black; /* Texto negro */
+  background-color: white; /* Fondo blanco */
+  text-align: center; /* Texto centrado */
+  font-family: Arial, Helvetica, sans-serif; /* Fuente sans-serif */
+  font-size: large; /* Tamano de fuente grande */
+}
+
+/* Estilo para la seccion 'visita' */
+.visita {
+  font-family: 'Times New Roman', Times, serif; /* Fuente clasica */
+  color: rgb(0, 0, 0); /* Texto negro */
+  background-color: rgb(206, 170, 137); /* Fondo beige */
+  text-align: center; /* Texto centrado */
+}
+
+/* Estilo para la seccion 'servi' */
+.servi {
+  font-family: 'Times New Roman', Times, serif; /* Fuente clasica */
+  color: white; /* Texto blanco */
+  background-color: rgb(127, 177, 235); /* Fondo azul claro */
+  text-align: center; /* Texto centrado */
+  padding: 2%; /* Espaciado interno */
+  margin-left: 30%; /* Margen izquierdo */
+  margin-right: 30%; /* Margen derecho */
+}
+
+/* Estilo para la seccion 'tranqui' */
+.tranqui {
+  font-family: 'Times New Roman', Times, serif; /* Fuente clasica */
+  color: rgb(0, 0, 0); /* Texto negro */
+  background-color: rgb(206, 170, 137); /* Fondo beige */
+  text-align: center; /* Texto centrado */
+}
+
+/* Estilo para los enlaces dentro de la lista de elementos */
+.item-list a {
+  color: rgb(255, 255, 255); /* Texto blanco */
+  font-size: 21px; /* Tamano de fuente mediano */
+}
+
+/* Estilo para el encabezado h4 */
+.h4 {
+  font-family: 'Times New Roman', Times, serif; /* Fuente clasica */
+}
+
+/* Espaciado adicional */
+.espacio2 {
+  margin: 5%; /* Margen uniforme */
+}
+
+/* Estilo para las horas de apertura */
+.horas {
+  text-decoration: none; /* Sin subrayado */
+  text-align: right; /* Alineacion a la derecha */
+  font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilo para el contenedor de la caja */
+.caja {
+  background-color: #f0f0f0; /* Fondo gris claro */
+  border: 1px solid #ddd; /* Borde gris claro */
+  padding: 20px; /* Espaciado interno */
+  border-radius: 8px; /* Bordes redondeados */
+  margin-bottom: 0px; /* Sin margen inferior */
+}
+
+/* Estilo para el titulo h1 */
+h1 {
+  color: black; /* Texto negro */
+  text-align: center; /* Texto centrado */
+  text-transform: uppercase; /* Texto en mayusculas */
+  font-family: 'Times New Roman', Times, serif; /* Fuente clasica */
+}
+
+/* Estilo para el titulo h2 dentro de '.dia' */
+.dia h2 {
+  margin: 0; /* Eliminar margenes */
+  padding-bottom: 10px; /* Espaciado inferior */
+  border-bottom: 1px solid #ddd; /* Borde inferior */
+  font-family: 'Times New Roman', Times, serif; /* Fuente clasica */
+}
+
+/* Estilo para los parrafos dentro de '.dia' */
+.dia p {
+  margin: 0; /* Eliminar margenes */
+}
+
+/* Estilo para la clase 'abierto' */
+.abierto {
+  text-transform: uppercase; /* Texto en mayusculas */
+}
+
+/* Contenedor principal con maximo ancho */
+.contenedor {
+  max-width: 100%; /* Ancho completo */
+  padding: 20px; /* Espaciado interno */
+  margin: auto; /* Centrado automatico */
+}
+
+/* Estilo para el contenedor de tarifas */
+.tarifas-contenedor {
+  padding: 20px; /* Espaciado interno */
+}
+
+/* Estilo responsivo para pantallas mas pequenas */
+@media (max-width: 768px) {
+  .caja h1, .tarifa {
+      font-size: 1.5rem; /* Reducir tamano de fuente */
+  }
+  .contenedor {
+      padding: 10px; /* Reducir espaciado interno */
+  }
+  .tarifas-contenedor .card {
+      margin-bottom: 20px; /* Espaciado entre tarjetas */
+  }
+  .navbar-brand img {
+      width: 50px; /* Reducir tamano de imagen en la barra de navegacion */
+  }
+}
+
+/* Estilo para la informacion del usuario */
+.info {
+  color: white; /* Texto blanco */
+  font-family: 'Times New Roman', Times, serif; /* Fuente clasica */
+  font-weight: bold; /* Texto en negrita */
+  font-size: large; /* Tamano de fuente grande */
+  justify-content: space-between; /* Espaciado uniforme */
+  margin-left: 100px; /* Margen izquierdo */
+}
+
+/* Barra de datos (flexbox) */
+.barradatps {
+  display: flex; /* Elementos en fila */
+  justify-content: space-between; /* Espaciado uniforme */
+}
+
+/* Estilo para el usuario */
+.usuario {
+  color: white; /* Texto blanco */
+  font-family: 'Times New Roman', Times, serif; /* Fuente clasica */
+  margin-left: 300px; /* Margen izquierdo */
+}
+
+/* Estilo para la fecha */
+.fecha {
+  color: black; /* Texto negro */
+  font-weight: bold; /* Texto en negrita */
+  font-size: x-large; /* Tamano de fuente grande */
+  margin-left: 550px; 
+}
+
+.cerrar-sesion{
+  color: red;
+}
+
+.editar{
+  font-family: 'Times New Roman', Times, serif;
+  border-color: none;
+  border: white;
+  background-color: white;
+  font-weight: bold;
+  color: rgb(56, 56, 222);
+}

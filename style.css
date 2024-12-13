@@ -1,0 +1,176 @@
+ul li {
+    display: inline-block; /* Muestra los elementos de lista en linea */
+    padding: 0px 20px; /* Espacio a la izquierda y derecha */
+}
+
+a {
+    color: white; /* Color del texto en los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    font-family: 'Times New Roman', Times, serif; /* Fuente de los enlaces */
+}
+
+/* Estilos para los textos con clase 'letra' */
+.letra {
+    color: white; /* Color del texto */
+    text-transform: uppercase; /* Convierte el texto a mayusculas */
+    font-family: 'Times New Roman', Times, serif; /* Fuente */
+    text-align: left; /* Alineacion del texto */
+    font-size: 46px; /* Tamano de la fuente */
+}
+
+/* Estilos para elementos con la clase 'oferta' */
+.oferta {
+    background-color: rgb(206, 170, 137); /* Fondo de color naranja */
+    color: black; /* Color del texto */
+}
+
+/* Estilos para la seccion 'nosotros' */
+.nosotros {
+    color: white; /* Color del texto */
+    padding: 2%; /* Relleno interior */
+    background-color: rgb(127, 177, 235); /* Fondo azul claro */
+    text-align: center; /* Alineacion centrada */
+    font-family: 'Times New Roman', Times, serif; /* Fuente */
+    margin-left: 30%; /* Margen izquierdo */
+    margin-right: 30%; /* Margen derecho */
+}
+
+@media (max-width: 768px) {
+    .nosotros .col {
+      width: 100%; /* Hace que cada columna ocupe todo el ancho */
+    }
+  }
+
+/* Estilos para las columnas con clase 'col' */
+.col {
+    color: black; /* Color del texto */
+    background-color: white; /* Fondo blanco */
+    text-align: center; /* Alineacion centrada */
+    font-family: Arial, Helvetica, sans-serif; /* Fuente */
+    font-size: large; /* Tamano de la fuente */
+}
+
+/* Estilos para la clase 'visita' */
+.visita {
+    font-family: 'Times New Roman', Times, serif; /* Fuente */
+    color: rgb(0, 0, 0); /* Color del texto */
+    background-color: rgb(206, 170, 137); /* Fondo marron claro */
+    text-align: center; /* Alineacion centrada */
+}
+
+/* Estilos para los botones con clase 'btn3' */
+.btn3, .btn4, .btn5, .btn1 {
+    border: 3px solid; /* Borde de 3px */
+    font-family: 'Times New Roman', Times, serif; /* Fuente */
+    font-size: large; /* Tamano grande */
+    margin: 2%; /* Margen alrededor del boton */
+    padding: 20px 40px; /* Relleno interior */
+    text-decoration: none; /* Sin subrayado */
+    color: rgb(255, 255, 255); /* Color blanco */
+    letter-spacing: 10px; /* Espaciado entre letras */
+    transition: all 0.6s ease; /* Efecto suave al pasar el raton */
+    font-weight: bold; /* Negrita */
+}
+
+/* Estilos para el hover (efecto al pasar el raton) en los botones */
+.btn3:hover, .btn4:hover, .btn5:hover, .btn1:hover {
+    background-color: #001a2b; /* Fondo oscuro */
+    box-shadow: 0 0 20px vr(--color); /* Sombra alrededor del boton */
+    border-color: var(--color); /* Color del borde al pasar el raton */
+}
+
+/* Estilos especificos para 'btn3' */
+.btn3 {
+    background-color: rgb(114, 161, 206); /* Fondo azul claro */
+}
+
+/* Estilos especificos para 'btn4' */
+.btn4 {
+    background-color: rgb(114, 161, 206); /* Fondo azul claro */
+}
+
+/* Estilos especificos para 'btn5' */
+.btn5 {
+    background-color: rgb(114, 161, 206); /* Fondo azul claro */
+}
+
+/* Estilos especificos para 'btn1' */
+.btn1 {
+    background-color: rgb(206, 170, 137); /* Fondo rojo */
+}
+
+/* Estilos para la clase 'servi' */
+.servi {
+    font-family: 'Times New Roman', Times, serif; /* Fuente */
+    color: white; /* Color del texto */
+    background-color: rgb(127, 177, 235); /* Fondo azul claro */
+    text-align: center; /* Alineacion centrada */
+    padding: 2%; /* Relleno interior */
+    margin-left: 30%; /* Margen izquierdo */
+    margin-right: 30%; /* Margen derecho */
+}
+
+.abierto{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Estilos para la clase 'tranqui' */
+.tranqui {
+    font-family: 'Times New Roman', Times, serif; /* Fuente */
+    color: rgb(0, 0, 0); /* Color del texto */
+    background-color: rgb(206, 170, 137); /* Fondo marron claro */
+    text-align: center; /* Alineacion centrada */
+}
+
+/* Estilos para el contenedor de elementos (centrado) */
+.container {
+    align-items: center; /* Alinea los items */
+    display: flex; /* Usa flexbox */
+    align-content: center; /* Alineacion centrada */
+}
+
+/* Estilos para el carrusel (slider) */
+.carousel-slide {
+    display: flex; /* Usamos flexbox para centrar contenido */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    min-height: 90vh; /* Asegura que el contenedor ocupe toda la altura de la pantalla */
+    padding-top: 90px; /* Ajusta el espacio para la barra de navegacion */
+    transition: transform 1s ease; /* Efecto de transicion suave al mover el carrusel */
+}
+
+@media (max-width: 768px) {
+    .carousel-item {
+      height: 300px;
+    }
+    .container {
+      flex-direction: column;
+    }
+    .navbar-nav {
+      flex-direction: column;
+    }
+    .nosotros .col {
+      width: 100%;
+    }
+    /* Otros ajustes para pantallas más pequeñas */
+  }
+
+/* Estilos para los enlaces dentro de 'item-list' */
+.item-list a {
+    color: rgb(255, 255, 255); /* Color blanco */
+    font-size: 21px; /* Tamano de la fuente */
+}
+
+/* Estilos para los encabezados 'h4' */
+.h4 {
+    font-family: 'Times New Roman', Times, serif; /* Fuente */
+}
+
+/* Espacio adicional con clase 'espacio2' */
+.espacio2 {
+    margin: 5%; /* Anade un margen de 5% */
+}
+
+button, .warnings {
+    font-family: 'Times New Roman', Times, serif;
+}

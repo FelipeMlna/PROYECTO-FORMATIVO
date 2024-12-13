@@ -1,0 +1,120 @@
+/* Formularios */
+.form {
+    margin: 100px auto 50px;
+    max-width: 600px;
+    padding: 40px 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.sesion {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+/* Inputs */
+form .grupo {
+    position: relative;
+    margin: 30px 0;
+}
+
+input {
+    background: none;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+}
+
+input:focus {
+    outline: none;
+    color: white;
+}
+
+label {
+    color: #ffffff;
+    font-size: 16px;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    pointer-events: none;
+    transition: 0.5s ease-in-out all;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+    transform: translateY(-10px);
+    font-size: 12px;
+    color: white;
+    transition: transform 0.3s ease, font-size 0.3s ease, color 0.3s ease;
+}
+
+/* Botones */
+button {
+    background-color: #00bfff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Mensaje de registro */
+.mensajeregistro {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mensajeregistro a {
+    color: #00bfff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.mensajeregistro a:hover {
+    text-decoration: underline;
+}
+
+  
+
+/* Estilos responsive */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 20px;
+    }
+
+    .nav-link {
+        font-size: 24px;
+    }
+
+    .sesion {
+        font-size: 30px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    .form {
+        padding: 20px 10px;
+        max-width: 90%;
+    }
+}

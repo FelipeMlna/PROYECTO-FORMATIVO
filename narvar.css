@@ -1,0 +1,35 @@
+/* Estilo para las imagenes dentro del elemento 'nav' */
+nav img {
+    width: 40px; /* Establece el ancho de las imagenes en 40px */
+    height: auto; /* Mantiene la proporcion de altura segun el ancho */
+}
+
+/* Estilo para la imagen del logotipo dentro de la clase 'navbar-brand' */
+.navbar-brand img {
+    width: 70px; /* Establece el ancho de la imagen del logotipo en 70px */
+    height: auto; /* Mantiene la proporcion de altura */
+    margin-right: 10px; /* Anade un margen derecho de 10px */
+}
+
+/* Estilo para el icono con la clase 'ms-2' */
+.ms-2 {
+    font-size: 40px; /* Establece el tamano de fuente en 40px */
+}
+
+/* Estilo para los enlaces dentro de la barra de navegacion */
+.nav-link {
+    font-size: 26px; /* Establece el tamano de fuente en 26px */
+    color: white; /* Establece el color del texto en blanco */
+}
+
+/* Estilo para los iconos dentro de la barra de navegacion */
+.iconos-navbar {
+    width: 40px; /* Establece el ancho de los iconos en 40px */
+    height: 40px; /* Establece la altura de los iconos en 40px */
+}
+
+/* Estilo para el logo de la barra de navegacion, configurado como invisible */
+.logo-navbar {
+    width: 1px; /* Establece el ancho en 1px */
+    height: 1px; /* Establece la altura en 1px */
+}

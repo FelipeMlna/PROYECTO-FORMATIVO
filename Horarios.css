@@ -1,0 +1,158 @@
+/* Estilo del fondo de la pagina */
+body {
+  margin: 0; /* Elimina los margenes predeterminados */
+  background-size: cover; /* Hace que el fondo cubra toda la pantalla */
+  background-repeat: no-repeat; /* Evita que el fondo se repita */
+  background-attachment: fixed; /* Fija el fondo al desplazarse */
+  background-position: center; /* Centra el fondo */
+  min-height: 100vh; /* Asegura que la altura minima sea de 100% del viewport */
+}
+
+/* Estilo para los enlaces con clase "horas" */
+.horas {
+  text-decoration: none; /* Sin subrayado */
+  text-align: right; /* Alineacion a la derecha */
+  font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilo para el contenedor con clase "caja" */
+.caja {
+  background-color: #f0f0f0; /* Fondo gris claro */
+  border: 1px solid #ddd; /* Borde gris claro */
+  padding: 20px; /* Espaciado interno */
+  border-radius: 8px; /* Bordes redondeados */
+  margin-bottom: 0px; /* Sin margen inferior */
+}
+
+/* Estilo para encabezados h1 */
+h1 {
+  color: black; /* Texto negro */
+  text-align: center; /* Texto centrado */
+  text-transform: uppercase; /* Texto en mayusculas */
+  font-family: 'Times New Roman', Times, serif; /* Fuente clasica */
+}
+
+/* Estilo para los titulos dentro de la clase "dia" */
+.dia h2 {
+  margin: 0; /* Sin margen */
+  padding-bottom: 10px; /* Espaciado interno inferior */
+  border-bottom: 1px solid #ddd; /* Linea inferior gris claro */
+  font-family: 'Times New Roman', Times, serif; /* Fuente clasica */
+}
+
+/* Estilo para parrafos dentro de la clase "dia" */
+.dia p {
+  margin: 0; /* Sin margen */
+}
+
+/* Estilo para texto con clase "abierto" */
+.abierto {
+  text-transform: uppercase; /* Texto en mayusculas */
+}
+
+/* Estilo para texto con clase "tarifas" */
+.tarifas {
+  text-transform: uppercase; /* Texto en mayusculas */
+  font-family: 'Times New Roman', Times, serif; /* Fuente clasica */
+}
+
+/* Estilo para imagenes dentro de tarjetas */
+.card-img,
+.card-img-top {
+  transform: rotate(3deg); /* Rotacion ligera */
+  transition: transform 0.3s ease-in-out; /* Transicion suave en transformaciones */
+  transform: translateY(-10px); /* Desplazamiento vertical */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4); /* Sombra moderada */
+}
+
+/* Estilo para el cuerpo de las tarjetas */
+.card-body1 {
+  transform: translateY(-10px); /* Desplazamiento vertical */
+  transition: transform 0.3s ease-in-out; /* Transicion suave */
+}
+
+/* Estilo para imagenes de tarjetas al pasar el cursor */
+.card-img:hover,
+.card-img-top:hover {
+  box-shadow: 5px 5px 20px rgba(0, 8, 255, 0.4); /* Sombra azul al pasar el cursor */
+  transform: translateY(-10%); /* Desplazamiento vertical mas pronunciado */
+}
+
+/* Estilo general para el contenedor principal */
+.contenedor {
+  max-width: 100%; /* Ancho maximo del 100% */
+  padding: 20px; /* Espaciado interno */
+  margin: auto; /* Centrado automatico */
+}
+
+/* Estilo para contenedores de tarifas */
+.tarifas-contenedor {
+  padding: 20px; /* Espaciado interno */
+}
+
+/* Estilos para pantallas pequenas */
+@media (max-width: 768px) {
+  .caja h1, .tarifa {
+      font-size: 1.5rem; /* Tamano de fuente mas pequeno */
+  }
+  .contenedor {
+    padding: 10px; /* Reduce el espaciado interno */
+  }
+
+  .tarifas-contenedor .card {
+    margin-bottom: 20px; /* Espaciado inferior entre tarjetas */
+  }
+
+  .navbar-brand img {
+    width: 50px; /* Reduce el tamano de la imagen del logo */
+  }
+}
+
+/* Estilo para botones con clase "tarifa-btn" */
+.tarifa-btn {
+  display: inline-block; /* Boton en linea */
+  padding: 15px 30px; /* Espaciado interno */
+  font-size: 1.2rem; /* Tamano de fuente moderado */
+  font-weight: bold; /* Texto en negrita */
+  color: #fff; /* Texto blanco */
+  background-color: #4a4a4a; /* Fondo gris oscuro */
+  border-radius: 8px; /* Bordes redondeados */
+  text-decoration: none; /* Sin subrayado */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra moderada */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Transicion suave */
+}
+
+/* Estilo para botones al pasar el cursor */
+.tarifa-btn:hover {
+  background-color: #333; /* Fondo gris mas oscuro */
+  transform: translateY(-3px); /* Desplazamiento vertical */
+}
+
+/* Estilo para titulos dentro de la clase "caja" y para "tarifa" */
+.caja h1, .tarifa {
+  font-size: 2rem; /* Tamano de fuente grande */
+  text-align: center; /* Texto centrado */
+  margin-bottom: 20px; /* Espaciado inferior */
+}
+
+/* Estilo general para tarjetas */
+.card {
+  margin: 3%; /* Margenes uniformes */
+}
+
+/* Estilo para la clase "tarifa" */
+.tarifa {
+  color: white; /* Texto blanco */
+  text-align: center; /* Texto centrado */
+  font-family: 'Times New Roman', Times, serif; /* Fuente clasica */
+  background-color: rgb(82, 75, 75); /* Fondo gris oscuro */
+  padding: 20px; /* Espaciado interno */
+  max-width: 300px; /* Ancho maximo */
+  margin: 20px auto; /* Margenes superior e inferior, centrado horizontal */
+  border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Estilo para encabezados h4 */
+.h4 {
+  font-family: 'Times New Roman', Times, serif; /* Fuente clasica */
+}

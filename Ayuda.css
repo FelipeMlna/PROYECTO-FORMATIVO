@@ -1,0 +1,219 @@
+ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav img {
+    display: flex;
+    align-items: left;
+    width: 300px;
+    height: 300px;
+}
+
+.letra {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 46px;
+}
+
+.col {
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.item-list a {
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+}
+
+.item-list a:hover {
+    color: #00bfff; 
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Hacemos que la tabla ocupe mas espacio */
+.table {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    border-color: black;
+    background-color: white;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.table-bordered {
+    border: 2px solid #ddd;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: center;
+}
+
+/* Boton con posicion fija */
+button {
+    position: fixed;
+    background-color: rgb(210, 223, 252);
+    font-family: 'Times New Roman', Times, serif;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+}
+
+
+.contacto {
+    background-color: aliceblue;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.letra {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 46px;
+}
+
+/* Fuente para h4 */
+.h4 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Estilos generales para el contenedor del formulario */
+section {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 40px 20px;
+    margin: 40px auto;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+/* Titulo del formulario */
+section h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+/* General para el formulario */
+form{
+    padding: 40px 0;
+    border-radius: 10px;
+}
+
+.form{
+    width: 100%;
+    margin: auto;
+}
+
+form .grupo{
+    position: relative;
+    margin: 45px;
+}
+
+input{
+    background: none;
+    color: #ddd;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--colorTextos);
+}
+
+:root{
+    --colorTextos: white;
+}
+
+input:focus{
+outline: none;
+color: white;
+}
+
+label{
+    font-size: 16px;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    transition: 0.3 ease-in-out all;
+    pointer-events: none;
+
+}
+
+input:focus ~ label,
+input:valid ~ label {
+    transform: translateY(-10px);
+    font-size: 12px;
+    color: white;
+    transition: transform 0.3s ease, font-size 0.3s ease, color 0.3s ease;
+}
+
+/* Botón de enviar */
+form button {
+    position: static;
+    font-family: 'Times New Roman', Times, serif;
+    width: 30%;
+    height: auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #00bfff;
+    color: white;
+    font-weight: bold;
+    margin-left: 0x;
+    margin-right: 0px;
+}
+
+/* Resenas */
+.card {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Parrafos en resenas */
+.card p {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    font-size: larger;
+}
+
+
+

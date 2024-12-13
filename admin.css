@@ -1,0 +1,258 @@
+/* ================================
+   Estilos Generales
+================================= */
+body {
+    /* Fondo de la pagina */
+    background-image: url(Imagenes/FONDO\ PARk.jpg);
+    margin: 0;
+    background-size: cover; /* Cubrir toda la pantalla */
+    background-repeat: no-repeat; /* No repetir el fondo */
+    background-attachment: fixed; /* Fijar el fondo al hacer scroll */
+    background-position: center; /* Centrar el fondo */
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1000px; /* Ancho maximo */
+    margin-top: 50px; /* Espacio superior */
+}
+
+/* ================================
+   Estilos para el Titulo Principal
+================================= */
+h2 {
+    font-size: 2.5rem; /* Tamano de fuente */
+    font-weight: bold; /* Negrita */
+    color: #f8f9fa; /* Color blanco */
+    text-align: center; /* Centrado */
+    margin-bottom: 40px; /* Espacio inferior */
+    font-family: 'Times New Roman', Times, serif; /* Fuente */
+    background-color: rgba(0, 0, 0, 0.5); /* Negro con 50% de transparencia */
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+/* ================================
+   Estilos para las Alertas
+================================= */
+.alert {
+    font-size: 1rem; /* Tamano de fuente */
+    font-weight: bold; /* Negrita */
+}
+
+/* ================================
+   Estilos para la Barra de Navegacion (Navbar)
+================================= */
+.navbar {
+    background-color: #212529; /* Fondo oscuro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.navbar-brand {
+    color: #f8f9fa; /* Color blanco para la marca */
+}
+
+/* ================================
+   Estilos para los Formularios
+================================= */
+.form-label {
+    font-size: 1.1rem; /* Tamano de fuente */
+    color: #f8f9fa; /* Color blanco */
+    font-weight: bold; /* Negrita */
+}
+
+.form-control {
+    border-radius: 0.5rem; /* Bordes redondeados */
+    border: 1px solid #495057; /* Borde gris oscuro */
+    padding: 12px; /* Relleno interior */
+    font-size: 1rem; /* Tamano de fuente */
+    transition: all 0.3s ease; /* Transicion suave */
+    background-color: #495057; /* Fondo gris oscuro */
+    color: #d3d3d3; /* Color gris claro para el texto */
+    font-weight: normal; /* No en negrita */
+}
+
+.form-control:focus {
+    border-color: #007bff; /* Borde azul al enfocar */
+    box-shadow: 0 0 8px rgba(38, 143, 255, 0.5); /* Sombra azul */
+}
+
+/* ================================
+   Estilos para los Botones
+================================= */
+.btn {
+    font-size: 1.1rem; /* Tamano de fuente */
+    padding: 12px; /* Relleno */
+    border-radius: 0.5rem; /* Bordes redondeados */
+    font-weight: bold; /* Negrita */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Fondo azul */
+    border-color: #007bff; /* Borde azul */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Azul mas oscuro al pasar el raton */
+    border-color: #004085; /* Borde mas oscuro */
+}
+
+.btn-warning {
+    background-color: #f0ad4e; /* Fondo amarillo */
+}
+
+.btn-warning:hover {
+    background-color: #ec971f; /* Amarillo mas oscuro al pasar el raton */
+}
+
+.btn-danger {
+    background-color: #d9534f; /* Fondo rojo */
+}
+
+.btn-danger:hover {
+    background-color: #c9302c; /* Rojo mas oscuro al pasar el raton */
+}
+
+/* ================================
+   Ajustes para los Campos del Formulario
+================================= */
+.row .col-md-6 {
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+/* ================================
+   Estilos para el Formulario de Busqueda
+================================= */
+.search-form {
+    display: flex; /* Usar flexbox */
+    justify-content: center; /* Centrar el formulario */
+    margin-bottom: 30px; /* Espacio inferior */
+}
+
+.search-form input[type="text"] {
+    border-radius: 0.5rem; /* Bordes redondeados */
+    border: 1px solid #495057; /* Borde gris oscuro */
+    padding: 12px; /* Relleno */
+    font-size: 1rem; /* Tamano de fuente */
+    background-color: #495057; /* Fondo gris oscuro */
+    color: #f8f9fa; /* Texto blanco */
+}
+
+.search-form button {
+    margin-left: 10px; /* Espacio a la izquierda */
+    background-color: #007bff; /* Fondo azul */
+    color: #fff; /* Texto blanco */
+    padding: 12px 20px; /* Relleno */
+    border: none; /* Sin borde */
+    border-radius: 0.5rem; /* Bordes redondeados */
+    cursor: pointer; /* Cursor en forma de mano */
+}
+
+.search-form button:hover {
+    background-color: #0056b3; /* Azul mas oscuro al pasar el raton */
+}
+
+/* ================================
+   Estilos para la Tabla
+================================= */
+.table-container {
+    margin-top: 20px; /* Espacio superior */
+}
+
+.table {
+    width: 100%; /* Ancho completo */
+    border-collapse: collapse; /* Colapsar bordes */
+    color: #f8f9fa; /* Color blanco para el texto */
+}
+
+.table th, .table td {
+    padding: 12px; /* Relleno */
+    text-align: center; /* Alinear texto al centro */
+}
+
+.table th {
+    background-color: #333; /* Fondo oscuro para los encabezados */
+    color: #fff; /* Texto blanco */
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #2c2f33; /* Fila impar en gris oscuro */
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #3a3f47; /* Fila par en gris mas claro */
+}
+
+.table tbody tr:hover {
+    background-color: #575d63; /* Fondo gris oscuro al pasar el raton */
+}
+
+/* ================================
+   Estilos para los Botones en la Tabla
+================================= */
+.table .btn {
+    font-size: 0.9rem; /* Tamano de fuente */
+    padding: 8px 15px; /* Relleno */
+    border-radius: 0.5rem; /* Bordes redondeados */
+}
+
+.table .btn-sm {
+    padding: 6px 10px; /* Botones mas pequenos */
+}
+
+/* ================================
+   Estilos para la Barra de Navegacion
+================================= */
+ul li {
+    display: inline-block; /* Elementos en linea */
+    padding: 0px 20px; /* Espaciado horizontal */
+    font-weight: bold; /* Negrita */
+}
+
+/* Estilo para los enlaces dentro de la barra de navegacion */
+a {
+    color: white; /* Texto blanco */
+    text-decoration: none; /* Sin subrayado */
+    font-family: 'Times New Roman', Times, serif; /* Fuente clasica */
+    font-weight: bold; /* Negrita */
+}
+
+/* ================================
+   Estilos para los Elementos con la Clase 'letra'
+================================= */
+.letra {
+    color: white; /* Texto blanco */
+    text-transform: uppercase; /* Convertir el texto a mayusculas */
+    font-family: 'Times New Roman', Times, serif; /* Fuente clasica */
+    text-align: left; /* Alineacion a la izquierda */
+    font-size: 46px; /* Tamano de fuente grande */
+}
+
+/* ================================
+   Estilos para el Elemento de Cerrar Sesion
+================================= */
+.cerrar-sesion {
+    color: red; /* Texto rojo */
+}
+
+/* ================================
+   Estilos para el Menu Desplegable
+================================= */
+.dropdown-item-txt {
+    font-size: 1rem; /* Tamano de fuente */
+    color: #d3d3d3; /* Gris claro */
+    font-weight: normal; /* Sin negrita */
+}
+
+.dropdown-item-txt strong {
+    font-weight: bold; /* Los titulos en negrita */
+}
+
+/* ================================
+   Estilos para la Barra de Navegacion (Elementos de Menu)
+================================= */
+.nav-item .nav-link {
+    font-weight: bold; /* Negrita */
+    color: #f8f9fa; /* Texto blanco */
+}

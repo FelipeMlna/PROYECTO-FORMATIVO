@@ -1,0 +1,187 @@
+/* Estilo del fondo de la página */
+body {
+  background-image: url(Imagenes/FONDO\ PARk.jpg);
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 100vh;
+  font-family: 'Playfair Display', serif;
+  font-size: large;
+}
+
+/* Contenedor principal */
+.container {
+  width: 100%;
+  max-width: 1200px; /* Aumentado para mayor flexibilidad */
+  margin: 20px auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+/* Títulos */
+.titulo, .titulo1 {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Logotipo centrado */
+.logo-centered {
+  display: block;
+  margin: 0 auto;
+  max-width: 70px;
+}
+
+/* Navegación */
+.navbar-brand img {
+  max-width: 70px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  color: white;
+}
+
+.iconos-navbar {
+  width: 42px;
+  height: 42px;
+}
+
+/* Tablas */
+.table-responsive {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+table th {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .container {
+    max-width: 95%;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  body {
+    font-size: medium;
+  }
+
+  .titulo, .titulo1 {
+    font-size: 1.5rem;
+  }
+
+  .navbar-brand img {
+    width: 50px;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+  }
+
+  .iconos-navbar {
+    width: 25px;
+    height: 25px;
+  }
+
+  table th, table td {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: small;
+  }
+
+  .titulo, .titulo1 {
+    font-size: 1.2rem;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  .navbar-brand img {
+    width: 40px;
+  }
+
+  .nav-link {
+    font-size: 0.9rem;
+  }
+
+  table th, table td {
+    font-size: 0.8rem;
+    padding: 6px;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    font-size: x-small;
+  }
+
+  .titulo, .titulo1 {
+    font-size: 1rem;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .navbar-brand img {
+    width: 35px;
+  }
+
+  .nav-link {
+    font-size: 0.8rem;
+  }
+
+  .iconos-navbar {
+    width: 20px;
+    height: 20px;
+  }
+
+  table th, table td {
+    font-size: 0.7rem;
+    padding: 4px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
